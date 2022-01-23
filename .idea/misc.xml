@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.2548717948717949" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/edit_text.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/edit_text_creator.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/external_message.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/ic_edit.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/internal_message.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/sign_up_in_buttons.xml" value="0.2385" />
+        <entry key="app/src/main/res/layout/accorded_idea.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/accorded_user.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/activity_add_note2.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/activity_considered_user.xml" value="0.2595108695652174" />
+        <entry key="app/src/main/res/layout/activity_creator.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/activity_followers.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_info.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/activity_list.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_main_menu.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_messenger.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_my_ideas.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_notebook.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_sign_in3.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/activity_swipe_cards.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/activity_user_card.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/activity_vosk_demo.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/card_item.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/external_messahe.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/fragment_third.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/internal_messgae.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/item.xml" value="0.2595108695652174" />
+        <entry key="app/src/main/res/layout/note_l.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/preference_c.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/preference_category.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/preference_s.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/record_item_layout.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/sign_up.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/spinner_adapter.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/sug_row_layout.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/swipe_card_item.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/testitem.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/menu/add_menu.xml" value="0.40989583333333335" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.40989583333333335" />
+        <entry key="app/src/main/res/menu/profile_menu.xml" value="0.40989583333333335" />
+        <entry key="app/src/main/res/xml/root_xml.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory
+        android:layout="@layout/preference_c"
+        app:icon="@drawable/ic_profile"
+        app:title="Account"
+        android:key="@string/account_pref"
+        >
+
+        <SwitchPreference
+            android:key="@string/switch_key"
+            app:summaryOff="Invisible"
+            app:summaryOn="Visible"
+            android:defaultValue="true"
+            app:title="Account visibility" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:layout="@layout/preference_s"
+        app:icon="@drawable/ic_setting"
+        app:title="Information"
+        android:key="@string/general_pref">
+
+        <PreferenceScreen
+            app:title="About program"
+            android:summary="Mobile application for cross-language Valternis"
+            >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/ZiyatdinovTimur/VKR/tree/master/" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="Author"
+            android:summary="Timur Ziyatdinov"
+            >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/timkukk/" />
+        </PreferenceScreen>
+
+
+        <PreferenceScreen
+            android:title="Version"
+            android:summary="1.0.3 "
+            >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/ZiyatdinovTimur/VKR/tree/master" />
+        </PreferenceScreen>
+
+
+    </PreferenceCategory>
+
+
+
+
+
+
+</PreferenceScreen>
