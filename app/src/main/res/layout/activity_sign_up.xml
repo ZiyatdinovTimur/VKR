@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.SignUpActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="322dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:paddingRight="15dp"
+        android:paddingLeft="9dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="Имя"
+        android:inputType="textPersonName"
+        />
+
+        <EditText
+            android:id="@+id/editSurname"
+            android:layout_width="322dp"
+            android:layout_height="43dp"
+            android:paddingLeft="9dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="Фамилия"
+            android:inputType="textPersonName"
+            />
+
+    <EditText
+        android:id="@+id/editPhoneNumber"
+        android:layout_width="322dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:paddingLeft="9dp"
+        android:hint="Номер телефона"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/editSpecialization"
+        android:layout_width="322dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text"
+        android:paddingLeft="9dp"
+        android:ems="10"
+        android:hint="Специализация"
+        android:inputType="textPersonName"
+         />
+
+
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="322dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:paddingLeft="9dp"
+        android:hint="Email"
+        android:inputType="textPersonName"
+       />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="322dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:paddingLeft="9dp"
+        android:hint="Пароль"
+        android:inputType="textPersonName"
+        />
+
+        <Button
+            android:id="@+id/addImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="16dp"
+            android:onClick="addImage"
+            android:text="@string/add_image"
+            />
+
+        <Button
+            android:id="@+id/singUpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="16dp"
+            android:onClick="signUp"
+            android:text="@string/sign_up_action" />
+
+
+
+    </LinearLayout>
+</ScrollView>

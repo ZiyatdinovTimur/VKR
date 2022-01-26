@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Memail"
+        android:orderInCategory="100"
+        android:title="Изменить email адрес"
+        />
+    <item
+        android:id="@+id/Mnumber"
+        android:orderInCategory="100"
+        android:title="Изменить номер телефона"
+        />
+    <item
+        android:id="@+id/Mspesialization"
+        android:orderInCategory="100"
+        android:title="Изменить специализацию"
+        />
+
+</menu>

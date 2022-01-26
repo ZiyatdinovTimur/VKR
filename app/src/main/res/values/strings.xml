@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Valternis</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="sign_up_action">Зарегистрироваться</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="email">    Email</string>
+    <string name="main_menu">Главное меню</string>
+    <string name="add_image">Добавить фото профиля</string>
+    <string name="notebook">Заметки</string>
+    <string name="settings">Настройки</string>
+    <string name="messenger">Мессенджер</string>
+    <string name="info">О проекте</string>
+    <string name="list">Идеи</string>
+    <string name="creator">Создать</string>
+    <string name="profile">Профиль</string>
+    <string name="redact">Редактировать</string>
+    <string name="match">Мэтчи</string>
+    <string name="respond">Отклики</string>
+    <string name="create">Создать</string>
+    <string name="add_idea_image">Фото к описанию</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="specialization">Специализация</string>
+    <string name="main_info">Приложениу для поиска единомышленников в сфере start-up</string>
+    <string name="additional_info">Работа выполнена в рамках курсовой работы ФКН ДПИ</string>
+    <string name="contact_info">По всем вопросам писать на почту "taziyatdinov@edu.hse.ru"</string>
+    <string name="author_info">Зиятдинов Тимур БПИ181</string>
+    <string name="ok">Ok</string>
+    <string name="hello_world">aloha</string>
+
+
+</resources>

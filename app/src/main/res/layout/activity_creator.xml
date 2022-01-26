@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.CreatorActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="45dp">
+
+
+        <EditText
+            android:id="@+id/editTopic"
+            android:layout_width="322dp"
+            android:paddingLeft="9dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/edit_text_creator"
+            android:ems="10"
+            android:hint="  Тема"
+            android:inputType="textPersonName"></EditText>
+
+        <EditText
+            android:id="@+id/editDescription"
+            android:layout_width="322dp"
+            android:paddingLeft="9dp"
+            android:layout_height="123dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/edit_text_creator"
+            android:ems="10"
+            android:hint="  Описание"
+            android:inputType="textPersonName"></EditText>
+
+        <EditText
+            android:id="@+id/editRequest"
+            android:layout_width="322dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/edit_text_creator"
+            android:paddingLeft="9dp"
+            android:ems="10"
+            android:hint="  Ресурсы"
+            android:inputType="textPersonName"></EditText>
+
+        <EditText
+            android:id="@+id/editPeople"
+            android:layout_width="322dp"
+            android:layout_height="83dp"
+            android:paddingLeft="9dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/edit_text_creator"
+            android:ems="10"
+            android:hint="  Люди"
+            android:inputType="textPersonName"></EditText>
+
+        <Button
+            android:id="@+id/addIdeaImage"
+            android:layout_width="253dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="12dp"
+            android:onClick="addIdeaImage"
+            android:text="@string/add_idea_image"></Button>
+
+
+        <Button
+            android:id="@+id/createIdeaButton"
+            android:layout_width="253dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="60dp"
+            android:onClick="createIdea"
+            android:text="@string/create"></Button>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="10sp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/noteimageview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/item_note"
+        android:layout_marginLeft="7dp" />
+
+    <TextView
+        android:paddingBottom="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="10sp"
+        android:text="Match's Name"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:id="@+id/noteText"/>
+
+
+</LinearLayout>
