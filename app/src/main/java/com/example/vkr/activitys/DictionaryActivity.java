@@ -135,7 +135,6 @@ public class DictionaryActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<List<Dictionary>> call, Response<List<Dictionary>> response) {
                         initDictionary(response.body());
-                        Toast.makeText(DictionaryActivity.this,"asd",Toast.LENGTH_LONG).show();
 
                     }
 
